@@ -26,7 +26,7 @@ We'll be bootstrapping this cluster with the Flux GitOps agent as installed as a
 
    ```bash
    # [This takes less than one minute.]
-   az group create --name rg-bu0001a0008 --location eastus2
+   az group create --name rg-bu0001a0008 --location eastus
    ```
 
 1. Get the AKS cluster spoke virtual network resource ID.
